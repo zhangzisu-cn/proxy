@@ -4141,6 +4141,11 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
+git-revision@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/git-revision/-/git-revision-0.0.2.tgz#c32bb96d9e83cf0543b9636ba0cc8915c8506ced"
+  integrity sha1-wyu5bZ6DzwVDuWNroMyJFchQbO0=
+
 glob-parent@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npm.taobao.org/glob-parent/download/glob-parent-3.1.0.tgz#9e6af6299d8d3bd2bd40430832bd113df906c5ae"
@@ -8504,6 +8509,11 @@ vue-eslint-parser@^7.0.0:
     espree "^6.2.1"
     esquery "^1.0.1"
     lodash "^4.17.15"
+
+vue-gtag@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/vue-gtag/-/vue-gtag-1.8.0.tgz#0707e744bca6bc00681cbf555786b48cd9d46f97"
+  integrity sha512-oM3DojStj3oLSgmgUTgKlj1nuUBK5u7nSzjn5BltbozmA72CjkRkMyZ/OfyVZwkHUS97Rh2LYf6QfwXMQ46ZRw==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"

@@ -14,5 +14,11 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+  },
+  globals: {
+    GIT_HASH: 'readonly',
+    GIT_BRANCH: 'readonly',
+    BUILD_DATE: 'readonly',
+    GA_ID: 'readonly'
   }
 }

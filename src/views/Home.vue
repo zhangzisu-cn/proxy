@@ -2,7 +2,10 @@
   <v-row justify="center">
     <v-col cols="12" lg="6">
       <v-card>
-        <v-card-title>Home</v-card-title>
+        <v-card-title>Describtion</v-card-title>
+        <v-card-text>
+          This utility tool is made for proxying GFW-Blocked Internet resources for non-commercial use.
+        </v-card-text>
         <v-divider/>
         <v-card-subtitle>RawGit</v-card-subtitle>
         <v-row no-gutters class="mr-3">

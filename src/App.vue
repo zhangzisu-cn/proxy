@@ -19,6 +19,26 @@
     <div id="z-bg">
       <v-img src="https://proxy.zhangzisu.cn/pximg/img-original/img/2019/04/09/21/13/01/74125498_p0.png" contain height="100%"/>
     </div>
+    <v-footer dark app>
+      <v-row justify="end" no-gutters>
+        <v-col cols="12" sm="auto" class="text-right">
+          <v-btn text disabled class="text-none" >
+            &copy; {{ new Date().getFullYear() }} ZhangZisu
+          </v-btn>
+        </v-col>
+        <v-col cols="auto">
+          <v-tooltip top>
+            <template v-slot:activator="{ on }">
+              <v-btn text href="https://github.com/zhangzisu-cn/proxy" target="_blank" v-on="on">
+                <v-icon left>mdi-git</v-icon>
+                {{ build.GIT_HASH.substr(0, 7) }}
+              </v-btn>
+            </template>
+            <span>{{ build.GIT_BRANCH }}@{{ build.BUILD_DATE }}</span>
+          </v-tooltip>
+        </v-col>
+      </v-row>
+    </v-footer>
   </v-app>
 </template>
 
@@ -27,7 +47,11 @@ import { Vue, Component } from 'vue-property-decorator'
 
 @Component
 export default class App extends Vue {
-  //
+  build = {
+    GIT_HASH,
+    GIT_BRANCH,
+    BUILD_DATE
+  }
 }
 </script>
 
