@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar app>
-      <v-btn icon tile>
+      <v-btn icon tile href="https://zhangzisu.cn/" target="_blank">
         <v-avatar tile size="32">
           <v-img src="@/assets/logo.svg"/>
         </v-avatar>
