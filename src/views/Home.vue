@@ -2,7 +2,7 @@
   <v-row justify="center">
     <v-col cols="12" lg="6">
       <v-card>
-        <v-card-title>Describtion</v-card-title>
+        <v-card-title>Description</v-card-title>
         <v-card-text>
           This utility tool is made for proxying GFW-Blocked Internet resources for non-commercial use.
         </v-card-text>
@@ -50,11 +50,11 @@
             <v-divider/>
             <v-card-actions>
               <v-spacer/>
-              <v-btn color="green">
+              <!-- <v-btn color="green">
                 <v-icon left>mdi-content-copy</v-icon>
                 Copy
-              </v-btn>
-              <v-btn color="blue" :href="generated" target="_blank">
+              </v-btn> -->
+              <v-btn color="blue" :href="generated" target="_blank" dark>
                 <v-icon left>mdi-open-in-new</v-icon>
                 Open
               </v-btn>
