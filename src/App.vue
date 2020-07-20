@@ -31,10 +31,10 @@
             <template v-slot:activator="{ on }">
               <v-btn text href="https://github.com/zhangzisu-cn/proxy" target="_blank" v-on="on">
                 <v-icon left>mdi-git</v-icon>
-                {{ build.GIT_HASH.substr(0, 7) }}
+                {{ build.hash.substr(0, 7) }}
               </v-btn>
             </template>
-            <span>{{ build.GIT_BRANCH }}@{{ build.BUILD_DATE }}</span>
+            <span>{{ build.branch }}@{{ build.date }}</span>
           </v-tooltip>
         </v-col>
       </v-row>
@@ -48,9 +48,9 @@ import { Vue, Component } from 'vue-property-decorator'
 @Component
 export default class App extends Vue {
   build = {
-    GIT_HASH,
-    GIT_BRANCH,
-    BUILD_DATE
+    hash: GIT_HASH,
+    branch: GIT_BRANCH,
+    date: BUILD_DATE
   }
 }
 </script>
