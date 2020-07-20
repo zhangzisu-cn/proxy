@@ -97,21 +97,21 @@ export default class Home extends Vue {
   gn1 () {
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     const path = /https?:\/\/raw.githubusercontent.com(.+)/.exec(this.ipt1)![1]
-    this.generated = 'https://proxy.la.workers.dev/rawgit' + path
+    this.generated = 'https://proxy.zhangzisu.cn/rawgit' + path
     this.dialog = true
   }
 
   gn2 () {
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     const path = /https?:\/\/i.pximg.net(.+)/.exec(this.ipt2)![1]
-    this.generated = 'https://proxy.la.workers.dev/pximg' + path
+    this.generated = 'https://proxy.zhangzisu.cn/pximg' + path
     this.dialog = true
   }
 
   gn3 () {
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     const path = /https?:\/\/github.com(.+)/.exec(this.ipt3)![1]
-    this.generated = 'https://proxy.la.workers.dev/github' + path
+    this.generated = 'https://proxy.zhangzisu.cn/github' + path
     this.dialog = true
   }
 }

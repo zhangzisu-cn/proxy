@@ -17,7 +17,7 @@
       </v-container>
     </v-main>
     <div id="z-bg">
-      <v-img src="https://proxy.la.workers.dev/pximg/img-original/img/2019/04/09/21/13/01/74125498_p0.png" contain height="100%"/>
+      <v-img src="https://proxy.zhangzisu.cn/pximg/img-original/img/2019/04/09/21/13/01/74125498_p0.png" contain height="100%"/>
     </div>
   </v-app>
 </template>
