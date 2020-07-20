@@ -1,24 +1,3 @@
-# proxy
+# ZhangZisu.CN Proxy Services
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Netlify](https://img.shields.io/netlify/4d380063-9f4b-4a33-8092-df8026fa7570?logo=netlify&style=flat-square)
