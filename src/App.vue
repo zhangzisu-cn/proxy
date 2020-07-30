@@ -1,15 +1,17 @@
 <template>
   <v-app>
     <v-app-bar app>
-      <v-btn icon tile href="https://zhangzisu.cn/" target="_blank">
+      <v-btn icon tile x-large href="https://zhangzisu.cn/" target="_blank">
         <v-avatar tile size="32">
           <v-img src="@/assets/logo.svg"/>
         </v-avatar>
       </v-btn>
-      <div class="ml-2">
-        <div class="font-weight-bold">ZhangZisu.CN</div>
-        <div class="text-overline" style="line-height: unset;">Proxy Services</div>
-      </div>
+      <v-btn text x-large class="pa-0 text-left">
+        <div class="ma-2">
+          <div class="font-weight-bold">ZhangZisu.CN</div>
+          <div class="text-overline" style="line-height: unset;">Proxy Services</div>
+        </div>
+      </v-btn>
     </v-app-bar>
     <v-main>
       <v-container fluid>
