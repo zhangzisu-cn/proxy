@@ -4,7 +4,13 @@
       <v-card>
         <v-card-title>Description</v-card-title>
         <v-card-text>
-          This utility tool is made for proxying GFW-Blocked Internet resources for non-commercial use.
+          This utility tool is made for proxying GFW-Blocked Internet resources for non-commercial use.<br/>
+          <v-divider/>
+          Useful scripts:<br/>
+          oh-my-zsh:<br/>
+          <code style="white-space: nowrap">sh -c "$(curl -fsSL https://proxy.zhangzisu.cn/rawgit/ohmyzsh/ohmyzsh/master/tools/install.sh)"</code><br/>
+          nvm:<br/>
+          <code style="white-space: nowrap">curl -o- https://proxy.zhangzisu.cn/rawgit/nvm-sh/nvm/v0.35.3/install.sh | zsh</code><br/>
         </v-card-text>
         <v-divider/>
         <v-card-subtitle>RawGit</v-card-subtitle>
